@@ -14,11 +14,21 @@
     --font-secundary:'Josefin Slab', serif;
     --font-action: 'Mulish', sans-serif;
 }
-.Home, .Info, .Contato {
+.Home, .Info, .Contato, .Messages, .Team{
     display: flex;
     height: 90vh;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
     font-family: var(--font-action);
+}
+.h1{
+    font-family: var(--font-action);
+    font-size: 3rem;
+    text-shadow: .1rem .1rem 2px rgb(0, 0, 0, .4);
+    text-decoration: none;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
