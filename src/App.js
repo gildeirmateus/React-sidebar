@@ -12,13 +12,12 @@ function App() {
       <Router>
         <Sidebar/>
           <Switch>
+            <Route path= '/' exact component={Home}/>
             <Route path= '/home' exact component={Home}/>
             <Route path= '/info' exact component ={Info}/>
             <Route path= '/contato' exact component ={Contato}/>
             <Route path= '/messages' exact component ={Messages}/>
             <Route path= '/team' exact component ={Team}/>
-
-
           </Switch>
       </Router>
   );
